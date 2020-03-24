@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.rockpaperscissors_final.HistoryActivity">
+
+    <item
+        android:id="@+id/go_back"
+        android:icon="@drawable/ic_arrow_back_white_24dp"
+        android:title="@string/back"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/delete_games"
+        android:icon="@drawable/ic_delete_white_24dp"
+        android:title="@string/delete"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>

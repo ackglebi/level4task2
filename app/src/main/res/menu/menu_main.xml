@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.rockpaperscissors_final.MainActivity">
+    <item
+        android:id="@+id/check_history"
+        android:icon="@drawable/ic_history_black_24dp"
+        android:title="Check history"
+        app:showAsAction="ifRoom" />
+</menu>
